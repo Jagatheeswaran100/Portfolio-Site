@@ -270,7 +270,7 @@ nav {
 @media (max-width:425px) {
 
     .main-home {
-        height: 475px;
+        height: 100vh;
     }
 
     .main-home p {
@@ -293,7 +293,7 @@ nav {
 @media (max-width:765px) {
 
     .main-home {
-        height: 475px;
+        height: 100vh;
     }
 
     .main-home p {
