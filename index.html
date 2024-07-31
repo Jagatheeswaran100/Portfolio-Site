@@ -9,69 +9,12 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- navbar -->
-    <!-- <div class="navigation-bar container-fluid">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse d-lg-flex justify-content-between" id="navbar">
-                    <a href="#" class="logo-img d-inline-flex link-body-emphasis text-decoration-none">
-                        <img src="./images/jw-logo.png" alt="logo">
-                    </a>
-                    <ul class="navbar-nav col-lg-6 justify-content-lg-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <div class="d-lg-flex col-lg-3 justify-content-lg-end">
-                        <button type="button" class="resume-button btn me-2">Resume</button>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div> -->
-
-    <!-- <div class="container">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-1">
-            <div class="col-md-3 mb-2 mb-md-0">
-                <a href="#" class="logo-img d-inline-flex link-body-emphasis text-decoration-none">
-                    <img src="./images/jw-logo.png" alt="logo">
-                </a>
-            </div>
-
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#home" class="nav-link px-2 link-secondary">Home</a></li>
-                <li><a href="#about" class="nav-link text-black px-2">About</a></li>
-                <li><a href="#skills" class="nav-link text-black px-2">Skills</a></li>
-                <li><a href="#projects" class="nav-link text-black px-2">Projects</a></li>
-                <li><a href="#contact" class="nav-link text-black px-2">Contact</a></li>
-            </ul>
-
-            <div class="col-md-3 text-end">
-                <button type="button" class="resume-button btn me-2">Resume</button>
-            </div>
-        </header>
-    </div> -->
-
     <div class="container">
         <nav class="navbar navbar-expand-md navbar-light">
             <a href="#" class="navbar-brand">
@@ -110,7 +53,8 @@
     <!--  -->
 
     <!-- home -->
-    <div class="main-home container-fluid d-lg-flex justify-content-lg-center" id="home">
+    <div class="main-home container-fluid d-lg-flex justify-content-lg-center" id="home" data-aos="fade-up"
+        data-aos-duration="2000">
         <p>I'm Jagatheeswaran</p>
         <h6>Web Developer</h6>
         <div class="social-icons my-5">
@@ -122,7 +66,7 @@
     <!--  -->
 
     <!-- about -->
-    <div class="about container" id="about">
+    <div class="about container" id="about" data-aos="fade-up" data-aos-duration="2000">
         <div class="my-4">
             <div class="py-5 text-center">
                 <div class="container">
@@ -198,7 +142,7 @@
                 </div>
             </div>
         </div>
-        <div class="skills-icon container">
+        <div class="skills-icon container" data-aos="fade-up" data-aos-duration="2000">
             <div class="row justify-content-center mb-4">
                 <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center p-3">
                     <img src="./images/html-icon.svg" alt="Html Icon">
@@ -263,7 +207,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
                     <div class="card" style="width: 25rem;">
@@ -357,7 +301,7 @@
     <!--  -->
 
     <!-- contact -->
-    <div class="contact my-5 py-5" id="contact">
+    <div class="contact my-5 py-5" id="contact" data-aos="fade-up" data-aos-duration="2000">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -436,9 +380,15 @@
     <!--  -->
 
 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
         </script>
+    <!-- aos animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
